@@ -109,7 +109,7 @@ link kısmına şunu koydum ***localhost:8080/user/create***
 
 
 
-- 4-- Edit specified user by ID-----------------------------------------------
+- 4--Kullanıcıyı ID'ye göre düzenle-----------------------------------------------
 
 link tipini PUT yaptım
 
