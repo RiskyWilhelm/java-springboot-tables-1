@@ -5,7 +5,7 @@ Bu projemde, veri aktarımı ve alımı için, DTO objelerini ve farklı katmanl
 
 Bu projede H2 Memory Database kullanılmıştır. Tam veri tablosunu görmek için şu linke proje başlatıldıktan sonra girilmelidir:  **localhost:YOURPORT/h2-console** ***Normal port değeri 8080***
 
-ModelMapper adında bir obje yöneticisi kullanılmıştır. Böylelikle service katmanına gereksiz veri gönderimini kısıtladık.
+ModelMapper adında bir obje yöneticisi kullanılmıştır. Böylelikle service katmanına gereksiz veri gönderimini kısıtladık. İzlediğim eğitim videosunda adam bunu kullanıyordu :D
 
 Veri tablosunda id 100'den başlıyor, bir bir artıyor.
 
