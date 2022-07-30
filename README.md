@@ -1,42 +1,40 @@
 # java-springboot-tables-1
-In this project, i did GET, POST(CREATE), PUT(EDIT) in a table. 
+Bu projemde, veri aktarımı ve alımı için, DTO objelerini ve farklı katmanları kullanarak,  **GET, POST(CREATE), PUT(EDIT)** yaptım. 
 
-- **Informations about project.**
+- **Projem hakkında**
 
-h2 memory database can be seen in **localhost:YOURPORT/h2-console** ***By default the port is 8080***
+Bu projede H2 Memory Database kullanılmıştır. Tam veri tablosunu görmek için Linki ise:  **localhost:YOURPORT/h2-console** ***Normal port değeri 8080***
 
 ModelMapper used for not send the full database to service layer.
 
-The H2 DATABASE(IN MEMORY) id starts from 100.
+ModelMapper adında bir obje yöneticisi kullanılmıştır. Böylelikle service katmanına gereksiz veri gönderimini kısıtladık.
 
-Create New User
+Veri tablosunda id 100'den başlıyor, bir bir artıyor.
 
-Edit Specified User By Id
+Kullanıcı Ekle
 
-Find all users
+Belirtilen ID'deki kullanıcıyı düzenle
 
-Find Specified User By Id
+Bütün kullanıcıları bul
 
-
-
-- **How to use it(Postman)?**
+Girilen ID'ye göre kullanıcı bul
 
 
 
-
-
-
-- 1-- Find all users-----------------------------------------------
-
-Set the postman link type to GET
-
-Set link to ***localhost:8080/user/getAllUsers***
-
-Click SEND and youre done.
+- **Ben değişiklik yapmak için postman kullandım?**
 
 
 
 
+
+
+- 1-- Bütün kullanıcıları bul-----------------------------------------------
+
+link tipini GET yaptım
+
+link kısmına şunu koydum ***localhost:8080/user/getAllUsers***
+
+**SEND** dedikten sonra sonucu gördüm.
 
 
 
@@ -44,31 +42,32 @@ Click SEND and youre done.
 
 
 
-- 2-- Find Specified User by ID-----------------------------------------------
-
-Set the postman link type to GET
-
-Set link to ***localhost:8080/user/getUserById/ENTERTHEIDHERE*** ***The id starts from 100***
-
-Click SEND and youre done.
 
 
+- 2-- Girilen ID'ye göre kullanıcı bul-----------------------------------------------
 
+link tipini GET yaptım
 
+link kısmına şunu koydum ***localhost:8080/user/getUserById/ENTERTHEIDHERE*** ***Unutmayalım id 100'den başlıyor.***
+
+**SEND** dedikten sonra sonucu gördüm.
 
 
 
-- 3-- Create new User-----------------------------------------------
 
-Set the postman link type to POST
 
-Set link to ***localhost:8080/user/create***
 
-Go to **BODY** section in postman.
+- 3-- Kullanıcı Ekle-----------------------------------------------
 
-Select **RAW** and set type to **JSON** instead of text.
+link tipini POST yaptım
 
-write this:
+link kısmına şunu koydum ***localhost:8080/user/create***
+
+ **BODY** kısmına geldim
+
+**RAW**'ı seçtim ve text yerine **JSON**'u seçtim 
+
+Şunu yazdım:
 
 `
 {
@@ -77,7 +76,7 @@ write this:
 }
 `
 
-Click SEND and youre done.
+**SEND** dedikten sonra sonucu gördüm.
 
 
 
@@ -90,15 +89,15 @@ Click SEND and youre done.
 
 - 4-- Edit specified user by ID-----------------------------------------------
 
-Set the postman link type to PUT
+link tipini PUT yaptım
 
-Set link to ***localhost:8080/user/editUser/ENTERIDHERE***
+linke şunu yazdım ***localhost:8080/user/editUser/ENTERIDHERE*** ***Unutmayalım id 100'den başlıyor.***
 
-Go to **BODY** section in postman.
+**BODY** kısmına geldim
 
-Select **RAW** and set type to **JSON** instead of text.
+**RAW**'ı seçtim ve text yerine **JSON**'u seçtim 
 
-write this:
+Şunu yazdım
 
 `
 {
@@ -107,7 +106,7 @@ write this:
 }
 `
 
-Click SEND and youre done.
+**SEND** dedikten sonra sonucu gördüm.
 
 
 
