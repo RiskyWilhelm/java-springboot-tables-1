@@ -5,19 +5,21 @@ In this project, i did GET, POST(CREATE), PUT(EDIT) in a table.
 
 h2 memory database can be seen in **localhost:YOURPORT/h2-console** ***By default the port is 8080***
 
+ModelMapper used for not send the full database to service layer.
+
 The H2 DATABASE(IN MEMORY) id starts from 100.
+
+Create New User
+
+Edit Specified User By Id
 
 Find all users
 
 Find Specified User By Id
 
-Edit Specified User By Id
 
-Create New User
 
-- **How to use it?**
-
-Download Postman or use something else to send the data.
+- **How to use it(Postman)?**
 
 
 
