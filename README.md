@@ -115,11 +115,10 @@ linke şunu yazdım ***localhost:8080/user/editUser/ENTERIDHERE*** ***Unutmayal�
 
 Postmapping, PutMapping, GetMapping kullanımını katmanlar kullanarak öğrenmiş oldum.
 
-Javada gördüğüm interfacelerdeki objelerin aslında public abstracta gerek olmadığını burada gördüm.
-
 Belirli bir objeye nasıl global bir şekilde erişilebileceğini @Bean metoduyla beraber öğrendim.
 
-Yapıcı metodları daha iyi bir şekilde kavradım.
+Yapıcı metodları daha iyi bir şekilde kavradım sayılır. Eh işte :D
 
 Veri Tablolarındaki düzenlemelerin nasıl yapıldığını daha iyi anladım.
 
+Spring bootta bir proje yapmayı başarmış bulunmaktayım. Bakalım bir sonraki hedefimiz ne olacak!
