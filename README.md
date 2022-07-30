@@ -19,7 +19,7 @@ Girilen ID'ye göre kullanıcı bul
 
 
 
-- **Ben değişiklik yapmak için postman kullandım. Beraber nasıl yapmışım bunu buraya yazıyorum ki sonrasında bakarsam anlayayım.**
+- **Ben değişiklik yapmak için postman kullandım. Nasıl yaptığımı buraya yazıyorum ki sonrasında bakarsam anlayayım.**
 
 
 
