@@ -1,6 +1,20 @@
 # java-springboot-tables-1
 Bu projemde, veri aktarımı ve alımı için, DTO objelerini ve farklı katmanları kullanarak,  **GET, POST(CREATE), PUT(EDIT)** yaptım. 
 
+- **h2 console girişi**
+
+Kayıtlı ayarlar: Generic h2 (Embedded)
+
+Ayar adı: Generic H2 (Embedded)
+
+Driver class: org.h2.Driver
+
+JDBC Url kısmı: ***jdbc:h2:mem:testdb***
+
+Kullanıcı Adı: boş bırakınız
+
+Şifre: boş bırakınız
+
 - **Projem hakkında**
 
 Bu projede H2 Memory Database kullanılmıştır. Tam veri tablosunu görmek için şu linke proje başlatıldıktan sonra girilmelidir:  **localhost:YOURPORT/h2-console** ***Normal port değeri 8080***
@@ -121,4 +135,6 @@ Yapıcı metodları daha iyi bir şekilde kavradım sayılır. Eh işte :D
 
 Veri Tablolarındaki düzenlemelerin nasıl yapıldığını daha iyi anladım.
 
-Spring bootta bir proje yapmayı başarmış bulunmaktayım. Bakalım bir sonraki hedefimiz ne olacak!
+Ve birkaç şey daha...
+
+:) Sonuç olarak Spring bootta bir proje yapmayı başarmış bulunmaktayım. Bakalım bir sonraki hedefimiz ne olacak!
