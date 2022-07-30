@@ -37,6 +37,16 @@ Girilen ID'ye göre kullanıcı bul
 
 
 
+- 0-- Bütün kullanıcıları ADMIN olarak bul-----------------------------------------------
+
+link tipini GET yaptım
+
+link kısmına şunu koydum ***localhost:8080/user/getAllUsersAdmin***
+
+**SEND** dedikten sonra sonucu gördüm.
+
+
+
 
 
 
