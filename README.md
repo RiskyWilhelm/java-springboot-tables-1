@@ -11,7 +11,7 @@ Driver class: org.h2.Driver
 
 JDBC Url kısmı: ***jdbc:h2:mem:testdb***
 
-Kullanıcı Adı: boş bırakınız
+Kullanıcı Adı: boş bırakınız **İşe yaramaz ise, "sa" yazıp deneyiniz.**
 
 Şifre: boş bırakınız
 
